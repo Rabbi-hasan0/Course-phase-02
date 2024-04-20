@@ -55,7 +55,7 @@ int32_t main(){
         cout << dis[i] << ' ';
     }cout << '\n';
 
-    int v = 8;
+    int v = 8;   // 1 to v porjonto shortest path khuje ber korbe
     while(v != 1) {
         cout << v << ' ';
         v = par[v];
