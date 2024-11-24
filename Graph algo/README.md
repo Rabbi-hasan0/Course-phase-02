@@ -1,4 +1,4 @@
-#01. DFS-:#
+# 01. DFS-: #
 ```cpp
     vector<int> g[N];
     bool vis[N];
@@ -11,7 +11,7 @@
       }
     }
 ```
-#3. BFS-:#
+# 3. BFS-:#
 ```cpp
     vector<int> g[N];
     bool vis[N];
