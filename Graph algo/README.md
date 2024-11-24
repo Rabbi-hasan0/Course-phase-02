@@ -1,5 +1,4 @@
-01. DFS
-  // Code--:
+#01. DFS-:
 ```cpp
     vector<int> g[N];
     bool vis[N];
@@ -12,8 +11,7 @@
       }
     }
 ```
-3. BFS
-  // Code--:
+#3. BFS-:
 ```cpp
     vector<int> g[N];
     bool vis[N];
