@@ -24,13 +24,13 @@ int32_t main() {
             g[u].push_back(v);
             g[v].push_back(u);
         }
-        vector<int> store(n + 1, -1); int val = 0;
+        vector<int> store(n + 1, 0); 
         for(int i = 1; i <= n; i++) {      //// এই লুপে ১ নং কম্পনেন্ট এ কোন নোড গুলা আছে এইটা সেইভ করে রাখছি;
             if(!vis[i]) {
                 dfs(i);
-                store[i] = ++val;
+                store[i] = store[i - 1] + 1;
             } else {
-                store[i] = val;
+                store[i] = store[i - 1];
             }
         } 
         int q = 1; cin >> q;        // তারপর query O(1) এ চেক দিচ্ছি যে x and y  একই কম্পনেন্ট এ কিনা! যদি সেইম কম্পনেন্ট এ থাকে তাহলে x to y যাবার পথ আছে;
