@@ -30,7 +30,6 @@ bool is_bipartite() {
     }
     return ok;
 }
-
 int32_t main() {
     cin >> n >> e;
     color.assign(n, -1);
