@@ -23,7 +23,7 @@ int32_t main() {
         vector<int> ans;
         while(ans.size() < n) {
             int cur = 0;
-            for(int i = 1; i <= n; i++) {
+            for(int i = 1; i <= n; i++) {     // Here to find which node have zero indegree as a condition of top sort 
                 if(!indegre[i] and !vis[i]) {
                     cur = i; vis[i] = true;
                     break;
