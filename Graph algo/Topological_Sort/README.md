@@ -59,7 +59,7 @@ int32_t main() {
 ```
 5 6 1 3 4 2
 ```
-## 1. Applying [ Topology Sort ] Complexity: O(v + e)
+## 2. Applying [ Topology Sort Optimizing ] Complexity: O(v + e)
 ```c++
 #include <bits/stdc++.h>
 using namespace std;
