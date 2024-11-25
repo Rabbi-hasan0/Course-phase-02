@@ -1,6 +1,6 @@
 <img src = "https://github.com/Rabbi-hasan0/Course-phase-01/blob/main/Graph%20algo/Graph-visual/2.png">
 
-## Applying [ Topology Sort ] Complexity: O(n &#178)
+## Applying [ Topology Sort ] Complexity: O(n &sup2)
 
 ```c++
 #include <bits/stdc++.h>
