@@ -4,7 +4,7 @@
 ### Example
 <img src = "https://github.com/Rabbi-hasan0/Course-phase-01/blob/main/All%20photo%20%20of%20example/Lagendary.png" weidth = "600" height = "600">
 
-### Code:
+### Code:  Complexity: O(logn)
 ```c++
 #include<bits/stdc++.h>
 using namespace std;
