@@ -22,9 +22,8 @@ int32_t main() {
     }
     for(int i = 1; i <= t; ++i) {
         for(int j = 1; j <= t; ++j) {
-            cout << a[i][j] << ' ';
-        } cout << '\n';
-    } cout << '\n';
-    
+            cout << a[i][j] << (j == t ? '\n' : ' ');
+        }
+    }
     return 0;
 }
