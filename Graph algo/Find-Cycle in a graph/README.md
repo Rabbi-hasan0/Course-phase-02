@@ -1,6 +1,6 @@
 <div style="display: flex; align-items: center;">
   <img src="https://raw.githubusercontent.com/Rabbi-hasan0/Course-phase-01/main/Graph%20algo/Graph-visual/3.png" alt="Image 1" width="300" height="300" style="margin-right: 100px;">
-  <img src="https://raw.githubusercontent.com/Rabbi-hasan0/Course-phase-01/main/Graph%20algo/Graph-visual/2.png" alt="Image 2" width="300" height="300">
+  <img src="https://raw.githubusercontent.com/Rabbi-hasan0/Course-phase-01/main/Graph%20algo/Graph-visual/2.png" alt="Image 2" width="300" height="300" style="margin-left: 100px;">
 </div>
 
 ### Input:
