@@ -15,7 +15,6 @@ void dfs(int u) {
     }
     finish[u] = ++cur;
 }
-
 int32_t main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
