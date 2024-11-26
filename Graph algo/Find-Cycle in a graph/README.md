@@ -1,5 +1,7 @@
-<img src="https://github.com/Rabbi-hasan0/Course-phase-01/blob/main/Graph%20algo/Graph-visual/3.png" style="margin-right: 20px;" alt="Image 1" width="300" height="300">
-<img src="https://github.com/Rabbi-hasan0/Course-phase-01/blob/main/Graph%20algo/Graph-visual/2.png" alt="Image 2" width="300" height="300">
+<div style="display: flex; align-items: center;">
+  <img src="https://raw.githubusercontent.com/Rabbi-hasan0/Course-phase-01/main/Graph%20algo/Graph-visual/3.png" alt="Image 1" width="300" height="300" style="margin-right: 40px;">
+  <img src="https://raw.githubusercontent.com/Rabbi-hasan0/Course-phase-01/main/Graph%20algo/Graph-visual/2.png" alt="Image 2" width="300" height="300">
+</div>
 
 ### Input:
 ```
