@@ -8,6 +8,8 @@
 2 3
 3 1
 ```
+
+### Applying [dfs] for finding cycle;  Complexity: O(v + e)
 ```c++
 #include <bits/stdc++.h>
 #define print(x) cout << x << '\n'
