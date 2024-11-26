@@ -58,3 +58,61 @@ int32_t main() {
     }
     return 0;
 }
+```
+
+## Diameter of a tree..
+
+### Find diameter applying dfs:
+```c++
+#include <bits/stdc++.h>
+#define print(x) cout << x << '\n'
+#define int long long
+using namespace std;
+
+const int N = 1e5 + 7;
+vector<int> g[N];
+int depth[N];
+int dfs(int u, int p) {
+    depth[u] = depth[p] + 1;     
+    for(auto v: g[u]) {
+        if(p != v) {
+            dfs(v, u);        
+        }
+    }
+    return depth[u];
+}
+int32_t main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int t = 1; //cin >> t;
+    while(t--){
+        int n; cin >> n;
+        for(int i = 1; i < n; i++) {
+            int u, v; cin >> u >> v;
+            g[u].push_back(v);
+            g[v].push_back(u);
+        } 
+        dfs(1, 0);
+        int node1 = 0, mx = 0;
+        for(int i = 1; i <= n; i++) {
+            if(mx < depth[i]) {
+                mx = depth[i];
+                node1 = i;
+            }
+        } 
+        // cout << node << ' ' << mx << '\n';
+        memset(depth, 0, sizeof depth);
+        dfs(node1, 0);
+        int ans = 0, node2 = 0;
+        for(int i = 1; i <= n; i++) {
+            if(ans < depth[i]) {
+                ans = depth[i];
+                node2 = i;
+            }
+        } 
+        cout << "Diameter is node (" << node1 << ") to node (" << node2 << ") is maximum distance. So diameter is: " << ans << '\n';
+    }
+    return 0;
+}
+```
+
