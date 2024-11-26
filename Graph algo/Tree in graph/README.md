@@ -11,8 +11,7 @@ void dfs(int u, int p) {       // u is node and p is parent
 }
 ```
 
-### Find Depth of node using dfs:
-
+## 1. Find Depth of each node:
 ### Input:
 ````
 7
@@ -23,6 +22,7 @@ void dfs(int u, int p) {       // u is node and p is parent
 3 6
 3 7
 ````
+### Code:
 ```c++
 #include <bits/stdc++.h>
 #define print(x) cout << x << '\n'
