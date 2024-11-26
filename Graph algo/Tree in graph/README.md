@@ -60,7 +60,7 @@ int32_t main() {
 }
 ```
 
-## Diameter of a tree..
+## 2. Diameter of a tree..
 
 ### Find diameter applying dfs:
 ```c++
