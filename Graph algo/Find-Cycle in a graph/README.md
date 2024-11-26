@@ -1,4 +1,5 @@
-<img src= "https://github.com/Rabbi-hasan0/Course-phase-01/blob/main/Graph%20algo/Graph-visual/3.png"> <img src = "https://github.com/Rabbi-hasan0/Course-phase-01/blob/main/Graph%20algo/Graph-visual/2.png">
+<img src= "https://github.com/Rabbi-hasan0/Course-phase-01/blob/main/Graph%20algo/Graph-visual/3.png"> <img src = "https://github.com/Rabbi-hasan0/Course-phase-01/blob/main/Graph%20algo/Graph-visual/2.png" alt="Example Image" width="300" height="200">
+
 
 ### Input:
 ```
