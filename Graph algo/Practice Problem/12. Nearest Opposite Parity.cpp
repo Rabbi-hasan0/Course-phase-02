@@ -2,6 +2,7 @@
 #define print(x) cout << x << '\n'
 #define int long long
 using namespace std;
+
 const int inf = 1e9;
 const int N = 1e6 + 5;
 vector<int> g[N]; 
