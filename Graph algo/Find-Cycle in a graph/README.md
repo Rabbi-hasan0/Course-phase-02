@@ -1,6 +1,8 @@
 <h2 align="center"> Find Cycle On Directed Graph </h2> 
+<div align="center">
+  <img src="https://github.com/Rabbi-hasan0/Course-phase-01/blob/main/Graph%20algo/Graph-visual/3.png" width="560" height="315">
+</div>
 
-<img src="https://github.com/Rabbi-hasan0/Course-phase-01/blob/main/Graph%20algo/Graph-visual/3.png" style="margin-right: 20px;" alt="Image 1" width="300" height="300" align = "center">
 
 
 ### Input:
