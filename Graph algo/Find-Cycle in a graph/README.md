@@ -154,40 +154,40 @@ using namespace std;
 const int N = 1e5 + 7;
 vector<int> g[N];
 int color[N], parent[N];
-bool cycle;
 int cycle_start, cycle_end;
+bool cycle;
 
-void dfs(int u, int par) {
-    color[u] = 1; // Mark the node as visited (currently visiting)
-    for (auto &v : g[u]) {
-        if (v == par) continue; // Skip the edge back to the parent
-        if (color[v] == 0) { // If the node is unvisited
+void dfs(int u, int p) {
+    color[u] = 1;                       // Mark the node as visited (currently visiting)
+    for (auto &v: g[u]) {
+        if (v == p) continue;           // Skip the edge back to the parent
+        if (color[v] == 0) {            // If the node is unvisited
             parent[v] = u;
             dfs(v, u);
-            if (cycle) return; // Stop further DFS if a cycle is found
-        } else if (color[v] == 1) { // Back edge detected
+            if (cycle) return;          // Stop further DFS if a cycle is found
+        } else if (color[v] == 1) {     // Agei visit kora hoye gece...
             cycle = true;
             cycle_start = v;
             cycle_end = u;
             return;
         }
     }
-    color[u] = 2; // Mark the node as fully processed
+    color[u] = 2;                       // Mark the node as fully processed
 }
 
 void print_path() {
-    vector<int> path;
     int v = cycle_end;
-    path.push_back(cycle_start);
+    stack <int> path;
+    path.push(cycle_start);
     while (v != cycle_start) {
-        path.push_back(v);
+        path.push(v);
         v = parent[v];
     }
-    path.push_back(cycle_start);
-    reverse(path.begin(), path.end());
+    path.push(cycle_start);
     cout << path.size() << '\n';
-    for (auto v : path) {
-        cout << v << ' ';
+    while(!path.empty()) {
+        cout << path.top() << ' ';
+        path.pop();
     }
     cout << '\n';
 }
@@ -219,5 +219,6 @@ int32_t main() {
     }
     return 0;
 }
+
 ```
 </div>
