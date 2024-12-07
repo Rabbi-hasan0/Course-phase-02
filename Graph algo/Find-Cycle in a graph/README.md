@@ -1,5 +1,5 @@
 <div>
-<h2 align="center"> Find Cycle On Directed Graph </h2> 
+<h2 align="left"> 1. Find Cycle On Directed Graph </h2> 
 <div align="center">
   <img src="https://github.com/Rabbi-hasan0/Course-phase-01/blob/main/Graph%20algo/Graph-visual/3.png" width="560" height="315">
 </div>
@@ -14,7 +14,7 @@
 3 1
 ```
 
-### Applying [dfs] for finding cycle;  Complexity: O(v + e)
+<h3 align="center"> Applying [dfs] for finding cycle;  Complexity: O(v + e) </h3> 
 ```c++
 #include <bits/stdc++.h>
 #define print(x) cout << x << '\n'
