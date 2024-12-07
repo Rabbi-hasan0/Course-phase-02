@@ -143,7 +143,7 @@
 
 <div>
   <h2 align="left"> 2. Find Cycle On Un-Directed Graph </h2>
-  <h3 align="center">  If want to print path of Cycle On Directed Graph </h3> 
+  <h3 align="center">  If want to print path of Cycle On Un-Directed Graph </h3> 
 
 ```c++
 #include <bits/stdc++.h>
